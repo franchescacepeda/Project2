@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: deeppink;
+    }
+
+    h2 {
+    margin: 0 auto;
+    font-size: 35px;
+    margin: 10px;
+    }
+    .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .flex-column {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    }
+
+    .flex-wrap {
+    flex-wrap: wrap;
+    height: 432px;
+    width: 432px;
+    }
+
+    .square {
+    border: 2px solid pink;
+    height: 140px;
+    width: 140px;
+    }
+    #reset-button {
+    text-align: center;
+    font-size: 20px;
+    border: 3px solid rgb(237, 198, 198);
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    color: aliceblue;
+    }
