@@ -41,8 +41,11 @@ function init() {
             let idx = squares.findIndex(function(square) {
             return square === event.target;
             });
-            board[idx] = turn;
-            turn = turn === 'X' ? 'O' : 'X';
+            let idx = event.target.id
+            if(gameOver == false){
+                board[idx] =turnturn = turn === 'X' ? '0' : 'X'
+            }
+           
             win = getWinner();
             render ();
             };
